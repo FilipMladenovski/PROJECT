@@ -20,7 +20,6 @@ inputs.forEach((input) => {
 document.addEventListener('DOMContentLoaded', function() {
   const form = document.querySelector('form');
   const successMessage = document.createElement('p');
-  successMessage.textContent = 'Message sent successfully!';
   successMessage.style.color = '#1BD9C5';
   successMessage.style.marginTop = '10px';
   successMessage.style.textAlign = 'center';
